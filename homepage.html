@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard - Home</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+  <div class="homepage">
+    <!-- Navbar of my homepage-->
+    <nav class="navbar">
+      <div class="logo">
+        <h1>Weather Dashboard</h1>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Today's Forecast</a></li>
+        <li><a href="#">10-Day Forecast</a></li>
+        <li><a href="#">Monthly Forecast</a></li>
+      </ul>
+      <div class="search-container">
+        <input type="text" id="locationInput" placeholder="Enter Location" />
+        <button id="searchBtn">Search</button>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+<br><br>
+    <header>  <center><h1>IoT Weather Monitoring Dashboard</h1>
+      <p class="intro-text">Stay updated with real-time weather data from our advanced IoT devices.</p>
+    </header>
+<center>   <div class="weather-info">
+  <div class="weather-icon" id="weatherIcon">🌥️</div> 
+  <p id="forecastText">Fetching weather data...</p>
+
+  <div class="details">
+    <p><strong>Temperature:</strong> <span id="temperature">--°C</span></p>
+    <p><strong>Humidity:</strong> <span id="humidity">--%</span></p>
+    <p><strong>Wind Speed:</strong> <span id="windSpeed">-- m/s</span></p>
+  </div>
+</div>
+
+<button id="getWeatherBtn" class="btn">Get Latest Forecast</button>
+</center>
+   
+  <!-- weather section of mine page -->
+    <section class="ad-section">
+    <center><h2>Weather Tips & Info</h2></center> 
+      <div class="ad-content">
+        <div class="ad-item">
+          <h3>Stay Dry!</h3> <hr>
+          <p>Don't forget your umbrella on rainy days. Our IoT system helps you plan ahead with real-time updates!</p>
+        </div>
+        <div class="ad-item">
+          <h3>Beat the Heat</h3> <hr>
+          <p>Use cooling systems efficiently during hot weather. Check real-time temperatures with our dashboard!</p>
+        </div>
+        <div class="ad-item">
+          <h3>Winter is Coming</h3> <hr>
+          <p> Being informed can help you take necessary precautions and stay safe during winter storms.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="scripts2.js"></script>
+</body>
+</html>
+
